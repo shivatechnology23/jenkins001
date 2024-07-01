@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        GOOGLE_CLOUD_KEYFILE_JSON = credentials('gcp-key')
+        GOOGLE_CLOUD_KEYFILE_JSON = credentials('jenkins001')
     }
 
     stages {
