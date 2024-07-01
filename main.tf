@@ -1,5 +1,5 @@
 provider "google" {
-  project = "maximal-radius-424614-q7"
+  project = "webx-424701"
   region  = "us-central1"
 }
 
